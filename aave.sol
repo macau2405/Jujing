@@ -77,6 +77,6 @@ contract Aave {
     function bind(address referrer) external {}
     function withdraw(uint256 amount) external{}  
     function deposit(uint256 amount) external{}
-   
+    function withdrawInterestAndReward() external{}
   
 }
